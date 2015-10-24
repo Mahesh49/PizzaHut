@@ -74,13 +74,13 @@ namespace PizzaHut.FeatureFiles
         public virtual void DropDownList()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DropDown List", ((string[])(null)));
-#line 3
+#line 2
 this.ScenarioSetup(scenarioInfo);
-#line 4
+#line 3
  testRunner.Given("I am on HomePage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 5
+#line 4
  testRunner.When("I localise", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 6
+#line 5
  testRunner.Then("I should see DropDowns", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
