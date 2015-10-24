@@ -72,7 +72,7 @@
   </Target>
 
   <!-- Step 8) Generate Reports -->
-  <Target Name="DEBUG" DependsOnTargets="GenerateReports">
+  <Target Name="Run" DependsOnTargets="GenerateReports">
     <Message Text="##teamcity[importData type='mstest' path='@(BuildArtifacts)TestResults.trx']"></Message>
     <Message Text="Finished" />
 
