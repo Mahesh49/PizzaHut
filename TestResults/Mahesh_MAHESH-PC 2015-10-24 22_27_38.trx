@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4a3de7fb-e280-4ed5-8f0e-84a772123023" name="Mahesh@MAHESH-PC 2015-10-24 22:27:38" runUser="Mahesh-PC\Mahesh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="72cbb971-e70d-40f5-ac23-e8e55f219ffa">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Mahesh_MAHESH-PC 2015-10-24 22_27_38">
+      <DeploymentItem filename="C:\Users\Mahesh\Documents\Visual Studio 2010\Projects\PizzaHut\packages\Selenium.Support.2.45.0\lib\net40\WebDriver.Support.dll" />
+      <DeploymentItem filename="C:\Users\Mahesh\Documents\Visual Studio 2010\Projects\PizzaHut\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\Mahesh\Documents\Visual Studio 2010\Projects\PizzaHut\packages\Selenium.WebDriver.2.45.0\lib\net40\WebDriver.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-24T22:27:38.4163826+01:00" queuing="2015-10-24T22:27:38.5063827+01:00" start="2015-10-24T22:27:38.5563834+01:00" finish="2015-10-24T22:28:11.3678796+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DropDownList" storage="c:\users\mahesh\documents\visual studio 2010\projects\pizzahut\pizzahut\bin\debug\pizzahut.dll" id="f59bd87f-3ba0-fd01-2dc0-a8151fcb8cf3">
+      <Description>DropDown List</Description>
+      <Execution id="ea3d1f29-237c-4c2c-bcba-410b4bf889fd" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>DropDowns</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Mahesh/Documents/Visual Studio 2010/Projects/PizzaHut/PizzaHut/bin/Debug/PizzaHut.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PizzaHut.FeatureFiles.DropDownsFeature, PizzaHut, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DropDownList" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f59bd87f-3ba0-fd01-2dc0-a8151fcb8cf3" executionId="ea3d1f29-237c-4c2c-bcba-410b4bf889fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ea3d1f29-237c-4c2c-bcba-410b4bf889fd" testId="f59bd87f-3ba0-fd01-2dc0-a8151fcb8cf3" testName="DropDownList" computerName="MAHESH-PC" duration="00:00:17.1123851" startTime="2015-10-24T22:27:38.5893853+01:00" endTime="2015-10-24T22:28:11.1618678+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea3d1f29-237c-4c2c-bcba-410b4bf889fd">
+      <Output>
+        <StdOut>Given I am on HomePage
+-&gt; done: AllGiven.GivenIAmOnHomePage() (3.0s)
+When I localise
+-&gt; done: AllWhen.WhenILocalise() (13.9s)
+Then I should see DropDowns
+-&gt; done: AllThen.ThenIShouldSeeDropDowns() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
