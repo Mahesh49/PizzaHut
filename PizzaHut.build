@@ -68,7 +68,7 @@
 
   <!-- Step 7) Generate reports -->
   <Target Name="GenerateReports" DependsOnTargets="RunFeatureTests">
-    <Exec Command='C:\specflow\SpecFlow.1.9.0\tools\Specflow.exe mstestexecutionreport PizzaHut\PizzaHut.csproj /testResult:@(BuildArtifacts)TestResults.trx /out:@(BuildArtifacts)AcceptanceTestResult.html' />
+    <Exec Command='C:\specflow\SpecFlow.1.9.0\tools\Specflow.exe mstestexecutionreport PizzaHut\PizzaHut.csproj /testResult:@(BuildArtifacts)TestResults.trx /out:AcceptanceTestResult.html' />
   </Target>
 
   <!-- Step 8) Generate Reports -->
